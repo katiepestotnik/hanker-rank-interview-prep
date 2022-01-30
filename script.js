@@ -74,3 +74,20 @@ function domainName(url){
 domainName("http://github.com/carbonfive/raygun")
 //"github"
 
+function solution(inputString) {
+    return inputString === inputString.split('').reverse().join('')
+
+}
+
+function solution(year) {
+    if(year <= 100){
+        return 1
+    }
+    if(year > 100 ){
+        return Math.floor((year-1)/100) + 1
+    }
+}
+function solution(param1, param2) {
+    return param1 + param2
+
+}
